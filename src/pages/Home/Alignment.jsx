@@ -17,7 +17,7 @@ const Alignment = () => {
   ]
   return (
     <>
-      <div className="bg-[#1C3255]">
+      <div className="bg-[#512b00f5]">
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div className="flex">
             <h1 className="century text-white lg:text-[46px] text-4xl leading-[70px] mt-4">
@@ -38,7 +38,7 @@ const Alignment = () => {
                     key={key}
                     onClick={() => setVisibility(key)}
                     className={`pl-5 mt-3 cursor-pointer ${visibility == key
-                      ? "border-l-2 border-[#00A2C5]"
+                      ? "border-l-2 border-[#F1870F]"
                       : "border-l-2 border-white"
                       }`}
                   >

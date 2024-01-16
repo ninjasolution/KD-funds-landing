@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function FooterActionList() {
   return (
     <>
-      <div className="w-full mx-auto relative h-full py-5 bg-[#1C3255] xl:px-10 px-4">
+      <div className="w-full mx-auto relative h-full py-5 bg-[#512b00f5] xl:px-10 px-4">
         {/* <p className="text-center text-xs text-white roboto-mono">NEWSLETTER</p>
         <p className="text-center text-[32px] mt-4 text-white">
           Subscribe to receive our latest news and insights

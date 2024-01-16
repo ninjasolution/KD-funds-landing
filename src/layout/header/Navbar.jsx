@@ -67,16 +67,16 @@ function Navbar() {
                       onClick={headeritems}
                       href={v.link}
                       className={`text-${currentPath === v.link
-                          ? "[#00a2c5]"
+                          ? "[#F1870F]"
                           : "[#3d4043]"
-                        } border-b border-transparent hover:no-underline text-lg hover:text-[#00a2c5] ${currentPath === v.link ? "font-bold pb-2" : "font-normal"
+                        } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${currentPath === v.link ? "font-bold pb-2" : "font-normal"
                         }`}
                     >
                       {v.name}
                     </a>
 
                     {v?.list && (
-                      <ul className="dropdown_list nav_arrow text-[#00a2c5] xl:hidden group-hover:block box-shadow-dropdown static xl:absolute xl:top-[70px] xl:bg-lu-white xl:shadow-dropdown">
+                      <ul className="dropdown_list nav_arrow text-[#F1870F] xl:hidden group-hover:block box-shadow-dropdown static xl:absolute xl:top-[70px] xl:bg-lu-white xl:shadow-dropdown">
                         {v?.list.map((j) => {
                           return (
                             <li key={j.id} className="xl:hover:bg-lu-primary-2">
@@ -101,9 +101,9 @@ function Navbar() {
                 "--bg-toggle":
                   window.location.pathname === "/"
                     ? isFixed
-                      ? "#00a2c5"
-                      : "#00a2c5"
-                    : "#00a2c5",
+                      ? "#F1870F"
+                      : "#F1870F"
+                    : "#F1870F",
               }}
               className="toggle_btn_action ml-auto xl:ml-10"
             >
@@ -115,7 +115,7 @@ function Navbar() {
         </div>
       </nav>
       <div
-        className={`w-[370px] bg-[#1C3255] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${navToggle ? "end-0" : "end-[-400px]"
+        className={`w-[370px] bg-[#512b00f5] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${navToggle ? "end-0" : "end-[-400px]"
           }`}
       >
         <div
@@ -163,8 +163,8 @@ function Navbar() {
             {
               NavbarList.map((item, key) => (
                 <a href={item.link} onClick={toggleNavigation} className="group ">
-                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#00a2c5] transition-all duration-500">
-                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#00a2c5] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
                     {item.name}
                   </p>
                 </a>
@@ -173,8 +173,8 @@ function Navbar() {
             {/* <div className="flex items-start relative flex-col">
               <div className="lg:gap-28 md:gap-10 gap-4 flex items-center">
                 <Link onClick={toggleNavigation} to="loan" className="group">
-                  <p className="text-[32px] text-white cursor-pointer my-4 flex items-start group-hover:text-[#00a2c5] transition-all duration-500">
-                    <span className="inline-block w-[0px] mt-5 group-hover:w-[35px] h-[3px] bg-[#00a2c5] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                  <p className="text-[32px] text-white cursor-pointer my-4 flex items-start group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] mt-5 group-hover:w-[35px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
                     Loan Products
                   </p>
                 </Link>

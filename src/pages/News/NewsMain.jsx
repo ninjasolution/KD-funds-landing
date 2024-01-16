@@ -9,7 +9,7 @@ const NewsMain = () => {
       <NewsHero />
       <NewsMarket />
       <Insights
-        insightbg="bg-[#1C3255]"
+        insightbg="bg-[#512b00f5]"
         insightpara1="hidden"
         insightpara="Regulation"
         insightparadisplay="text-white"
@@ -22,7 +22,7 @@ const NewsMain = () => {
         <NewsMarket />
       </div>
       <Insights
-        insightbg="bg-[#1C3255]"
+        insightbg="bg-[#512b00f5]"
         insightpara1="text-white"
         insightpara="Explainers"
         insightparadisplay="text-white"
