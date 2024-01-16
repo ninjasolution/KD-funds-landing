@@ -39,7 +39,7 @@ const SBS = () => {
             data-aos-duration="1000"
             className="md:max-w-[710px] w-full"
           >
-            <img src={ManImage} alt="Image" className="w-full" />
+            <img src={'/HomeNew/2.jpg'} alt="Image" className="w-full" />
           </div>
         </div>
       </div>
