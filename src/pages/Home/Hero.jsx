@@ -26,7 +26,7 @@ const Hero = () => {
           className="flex justify-center items-center py-10 px-4 container mx-auto lg:mt-0 mt-12"
         >
           <h1 className="lg:text-[76px] md:text-5xl text-4xl century text-white text-center">
-          We are Sydney Specialists
+            Focused Mortgage Opportunities
           </h1>
         </div>
       </div>
