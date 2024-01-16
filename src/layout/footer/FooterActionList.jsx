@@ -6,38 +6,9 @@ import { Link } from "react-router-dom";
 function FooterActionList() {
   return (
     <>
-      <div className="w-full mx-auto relative h-full py-5 bg-[#512b00f5] xl:px-10 px-4">
-        {/* <p className="text-center text-xs text-white roboto-mono">NEWSLETTER</p>
-        <p className="text-center text-[32px] mt-4 text-white">
-          Subscribe to receive our latest news and insights
-        </p>
-        <div className="flex justify-center mt-5">
-          <div className="relative md:max-w-[456px] w-full">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="text-[#C9C8C8] md:max-w-[456px] mx-auto hsla w-full md:text-base text-xs font-normal outline-none leading-snug pl-4 h-[40px] rounded flex items-center"
-            />
-            <button className="w-6 h-6 bg-white flex justify-center items-center rounded-full absolute right-3 top-2">
-              <svg
-                width={24}
-                height={24}
-                viewBox="9 9 30 30"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx={24} cy={24} r={15} fill="white" />
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M28.6095 17.2784L34.7189 23.3278C35.0938 23.6991 35.0938 24.3009 34.7189 24.6722L28.6095 30.7216C28.2346 31.0928 27.6268 31.0928 27.2519 30.7216C26.877 30.3504 26.877 29.7485 27.2519 29.3773L31.7225 24.9506L13 24.9506L13 23.0494L31.7225 23.0494L27.2519 18.6227C26.877 18.2515 26.877 17.6496 27.2519 17.2784C27.6268 16.9072 28.2346 16.9072 28.6095 17.2784Z"
-                  fill="black"
-                />
-              </svg>
-            </button>
-          </div>
-        </div> */}
-        <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-white border-opacity-40 mt-20">
+      <div className="w-full mx-auto relative h-full py-5 bg-white xl:px-10 px-4">
+       
+        <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-grey border-opacity-40 mt-20">
           <div className="flex md:justify-between gap-5 flex-wrap lg:flex-nowrap w-full">
             <div className="xl:w-[330px] md:w-[220px] w-full">
               <Link>
@@ -58,7 +29,7 @@ function FooterActionList() {
                     >
                       <a
                         href={v.link}
-                        className="text-white text-sm font-semibold md:py-3 py-1 hover:underline und"
+                        className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
                       >
                         {v.name}
                       </a>
@@ -69,23 +40,23 @@ function FooterActionList() {
               </div>
             </div>
           </div>
-          <div className="border-t border-white border-opacity-40 pt-5 flex md:justify-between gap-4 items-center mt-10 flex-wrap">
+          <div className="border-t border-grey border-opacity-40 pt-5 flex md:justify-between gap-4 items-center mt-10 flex-wrap">
 
             <div className="flex gap-4 items-center md:flex-nowrap flex-wrap">
               <Link to="#">
-                <p className="text-white text-sm hover:underline">
+                <p className="text-[#5d5d5d] text-sm hover:underline">
                   Privacy Policy
                 </p>
               </Link>
               <Link to="#">
-                <p className="text-white text-sm hover:underline">Disclosures</p>
+                <p className="text-[#5d5d5d] text-sm hover:underline">Disclosures</p>
               </Link>
               <Link to="#">
-                <p className="text-white text-sm hover:underline">
+                <p className="text-[#5d5d5d] text-sm hover:underline">
                   Cookie Policy
                 </p>
               </Link>
-              <p className="text-white text-sm">
+              <p className="text-[#5d5d5d] text-sm">
                 © Copyright 2023. All Rights Reserved
               </p>
             </div>

@@ -9,7 +9,7 @@ const Onb = () => {
 
   return (
     <>
-      <div id="expertise" className="bg-[#512b00ab] relative z-50">
+      <div id="expertise" className="bg-[#5d5d5d] relative z-50">
         <div
           data-aos="fade-up"
           data-aos-offset="150"

@@ -78,7 +78,7 @@ const Domains = () => {
 
   return (
     <>
-      <div id="studies" className="bg-[#512b00f5]">
+      <div id="studies" className="bg-[#5d5d5d]">
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div
             data-aos="fade-up"

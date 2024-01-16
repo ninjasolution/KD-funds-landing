@@ -136,7 +136,7 @@ const Experience = () => {
   }, []);
   return (
     <>
-      <div className="bg-[#512b00f5] lg:py-36 py-24">
+      <div className="bg-[#5d5d5d] lg:py-36 py-24">
         <div
           data-aos="fade-up"
           data-aos-offset="150"
