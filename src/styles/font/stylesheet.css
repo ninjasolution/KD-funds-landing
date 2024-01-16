@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Century Expanded LT Std';
+    src: url('CenturyExpandedLTStd.eot');
+    src: local('Century Expanded LT Std Roman'), local('CenturyExpandedLTStd'),
+        url('CenturyExpandedLTStd.eot?#iefix') format('embedded-opentype'),
+        url('CenturyExpandedLTStd.woff2') format('woff2'),
+        url('CenturyExpandedLTStd.woff') format('woff'),
+        url('CenturyExpandedLTStd.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Century Expanded LT Std';
+    src: url('CenturyExpandedLTStd-Italic.eot');
+    src: local('Century Expanded LT Std Italic'), local('CenturyExpandedLTStd-Italic'),
+        url('CenturyExpandedLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('CenturyExpandedLTStd-Italic.woff2') format('woff2'),
+        url('CenturyExpandedLTStd-Italic.woff') format('woff'),
+        url('CenturyExpandedLTStd-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
