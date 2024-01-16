@@ -31,7 +31,7 @@ const Insights = ({
     {
       title: "Australia's tight rental market forces tenants to make tough choices",
       author: "by Stella Qiu",
-      image: "/Insight/tight rental.png",
+      image: "/HomeNew/0.jpg",
       createdAt: "October 30, 2023",
       url: "https://www.reuters.com/world/asia-pacific/australias-tight-rental-market-forces-tenants-make-tough-choices-2023-10-29",
 
@@ -39,63 +39,63 @@ const Insights = ({
     {
       title: "Australian housing market 2023: Prices were supposed to go down but they went up. What will 2024 bring?",
       author: "By Ellen Lutt on and Allison Worrall",
-      image: "/Insight/housing market.png",
+      image: "/HomeNew/1.jpg",
       createdAt: "November 30, 2023",
       url: "https://www.dropbox.com/scl/fo/hp36hdm1ilm3t8rlq57s3/h?dl=0&preview=Australian+housing+market+2023_+Prices+were+supposed+to+go+down+but+they+went+up.+What+will+2024+bring_.pdf&rlkey=jhcb3prwkjmpuzmkh7pcvqida"
     },
     {
       title: "Minns to lift council bans on terraces, townhouses and low-rise apartments",
       author: "by Alexandra Smith and Michael McGowan",
-      image: "/Insight/Minns to lift.png",
+      image: "/HomeNew/2.jpg",
       createdAt: "November 28, 2023",
       url: "https://www.smh.com.au/politics/nsw/minns-to-lift-council-bans-on-terraces-townhouses-and-low-rise-apartments-20231127-p5en4y.html"
     },
     {
       title: "Where property owners are selling at a Loss",
       author: "by Elizabeth Redman",
-      image: "/Insight/Mortgage stress.png",
+      image: "/HomeNew/3.jpg",
       createdAt: "December 21, 2023",
       url: "https://www.smh.com.au/property/news/where-property-owners-are-selling-at-a-loss-20231220-p5esv0.html"
     },
     {
       title: "Undersupply of new homes to trigger next boom, but not yet",
       author: "by Nila Sweeney",
-      image: "/Insight/Undersupply of new.png",
+      image: "/HomeNew/4.jpg",
       createdAt: "December 17, 2023",
       url: "https://www.afr.com/property/residential/undersupply-of-new-homes-to-trigger-next-boom-but-not-yet-20231215-p5ersm"
     },
     {
       title: "The collapse in US office tower values is creating a doom loop for banks",
       author: "by Karen Maley",
-      image: "/Insight/The collapse.png",
+      image: "/HomeNew/5.jpg",
       createdAt: "July 9, 2023",
       url: "https://www.afr.com/companies/financial-services/the-collapse-in-us-office-tower-values-is-creating-a-doom-loop-for-banks-20230709-p5dmt1"
     },
     {
       title: "Private credit sees opportunity in Australia real estate as banks hesitate",
       author: "by Lewis Jackson and Rae Wee",
-      image: "/Insight/Private credit.png",
+      image: "/HomeNew/6.jpg",
       createdAt: "November 6, 2023",
       url: "https://www.reuters.com/business/finance/private-credit-sees-opportunity-australia-real-estate-banks-hesitate-2023-11-05/"
     },
     {
       title: "Rising costs hit pipeline of cheaper apartments",
       author: "by Michael Bleby",
-      image: "/Insight/Rising costs.png",
+      image: "/HomeNew/7.jpg",
       createdAt: "September 7, 2023",
       url: "https://www.afr.com/property/residential/rising-costs-hit-pipeline-of-cheaper-apartments-20230907-p5e2oy"
     },
     {
       title: "Blackstone wants a bigger slice of Australia’s build-to-rent market",
       author: "by Nick Lenaghan",
-      image: "/Insight/Blackstone.png",
+      image: "/HomeNew/8.jpg",
       createdAt: "Febrary 6, 2023",
       url: "https://www.afr.com/property/commercial/blackstone-wants-a-bigger-slice-of-australia-s-build-to-rent-market-20230206-p5ci7t"
     },
     {
       title: "Housing targets at risk as building stalls at decade-low pace",
       author: "by Michael Bleby and Campbell Kwan",
-      image: "/Insight/Housing targets.png",
+      image: "/HomeNew/9.jpg",
       createdAt: "January 4, 2024",
       url: "https://www.afr.com/property/commercial/housing-targets-at-risk-as-building-stalls-at-decade-low-pace-20231207-p5eprv"
     },
