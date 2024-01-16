@@ -41,7 +41,7 @@ body {
   font-family: "Helvetica" !important;
 }
 .clickcolor {
-  color: #00a2c5;
+  color: #F1870F;
   font-weight: 600 !important;
 }
 
@@ -1340,13 +1340,13 @@ template {
       format("svg");
 }
 :root {
-  --color-dark-blue: #1c3255;
+  --color-dark-blue: #512b00f5;
   --color-light-blue: #ebf5fd;
   --color-white: #fff;
   --color-nearly-black: #3d4043;
   --color-grey: #c8c8c8;
   --color-light-grey: #ededed;
-  --color-orange: #00a2c5;
+  --color-orange: #F1870F;
   --color-blue1: #55889b;
   --color-blue2: #94adbf;
   --color-primary-dark: var(--color-dark-blue);
@@ -1921,7 +1921,7 @@ table {
   color: currentColor;
 }
 table thead {
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-dark-blue);
   color: #fff;
   color: var(--color-white);
@@ -2051,7 +2051,7 @@ section[data-type="optiver/twitter"] .container .subheader {
 }
 a {
   word-wrap: break-word;
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-primary-dark);
   max-width: 100%;
   // text-decoration: ;
@@ -2395,7 +2395,7 @@ section.archive .result.items .result-list > * {
   border-radius: 5px;
   -webkit-box-shadow: 5px 5px 23px rgba(25, 46, 80, 0.1);
   box-shadow: 5px 5px 23px rgba(25, 46, 80, 0.1);
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-dark-blue);
   height: 100%;
   overflow: hidden;
@@ -2542,7 +2542,7 @@ section.archive .result.items .result-list > * {
 }
 .arrow-next,
 .arrow-prev {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border-radius: 9999px 0 0 9999px;
   color: #fff;
@@ -2620,9 +2620,9 @@ section.archive .result.items .result-list > * {
   font-weight: 600;
 }
 .pagination .page-numbers:hover {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
-  border-color: #00a2c5;
+  border-color: #F1870F;
   border-color: var(--color-orange);
   color: #fff;
   color: var(--color-white);
@@ -2637,7 +2637,7 @@ section.archive .result.items .result-list > * {
 }
 .pagination .page-numbers.next,
 .pagination .page-numbers.prev {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
 }
 .pagination .page-numbers.next {
@@ -2923,7 +2923,7 @@ button.btn:not(.btn-prev):before,
 button.btn:not(.btn-secondary):before,
 button.btn:not(.is-style-outline):before,
 section[data-type="optiver/twitter"] .container #ctf #ctf-more:before {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
 }
 .__btn__primary:after,
@@ -2970,7 +2970,7 @@ button.btn:not(.btn-prev):after,
 button.btn:not(.btn-secondary):after,
 button.btn:not(.is-style-outline):after,
 section[data-type="optiver/twitter"] .container #ctf #ctf-more:after {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nOCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGNsaXAtcnVsZT0nZXZlbm9kZCcgZD0nbTE2LjMzOC4xNDYgMy4xODIgMy4xODJhLjUuNSAwIDAgMSAwIC43MDhsLTMuMTgyIDMuMTgyYS41LjUgMCAxIDEtLjcwNy0uNzA4bDIuMzI5LTIuMzI4SDB2LTFoMTcuOTZMMTUuNjMuODU0YS41LjUgMCAwIDEgLjcwNy0uNzA4WicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
   background-position: 50%;
@@ -3150,7 +3150,7 @@ button.btn.btn-secondary,
 button.btn.btn-secondary:not(.has-text-color),
 button.btn.is-style-outline,
 button.btn.is-style-outline:not(.has-text-color) {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
 }
 .__btn__secondary:before,
@@ -3167,7 +3167,7 @@ button.btn.btn-outline:before,
 button.btn.btn-secondary:before,
 button.btn.is-style-outline:before {
   background-color: transparent;
-  border-color: #00a2c5;
+  border-color: #F1870F;
   border-color: var(--color-orange);
   border-style: solid;
   border-width: 1px;
@@ -3220,7 +3220,7 @@ a.wp-block-button.is-style-outline:hover:before,
 button.btn.btn-outline:hover:before,
 button.btn.btn-secondary:hover:before,
 button.btn.is-style-outline:hover:before {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   left: calc(100% - 2.375rem);
 }
@@ -3573,7 +3573,7 @@ section[data-type="optiver/twitter"]
 }
 .__btn__animate:after,
 .btn-animate:after {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border-radius: 50%;
   content: "";
@@ -3763,7 +3763,7 @@ button.btn.btn-next:hover:before {
 a.btn.btn-explore,
 a.wp-block-button.btn-explore,
 button.btn.btn-explore {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   cursor: pointer;
   padding-left: 1rem;
@@ -4547,7 +4547,7 @@ form select {
 form button,
 form input[type="submit"] {
   background-color: transparent;
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border: none;
   border-radius: 9999px;
@@ -4590,7 +4590,7 @@ form input[type="submit"] {
   margin-bottom: 0.25rem;
 }
 .gform_wrapper form .gfield .gfield_label .gfield_required {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   margin-left: 0.275rem;
 }
@@ -4967,7 +4967,7 @@ form input[type="submit"] {
 .gform_wrapper form .gfield.gfield_error .ginput_container input[type="text"],
 .gform_wrapper form .gfield.gfield_error .ginput_container input[type="url"],
 .gform_wrapper form .gfield.gfield_error .ginput_container textarea {
-  border: 1px solid #00a2c5;
+  border: 1px solid #F1870F;
   border: 1px solid var(--color-orange);
 }
 .gform_wrapper form .gfield.gfield_error .ginput_container:before {
@@ -5401,7 +5401,7 @@ form input[type="submit"] {
   margin-bottom: 0.25rem;
 }
 .hbspt-form .hs-form-field > label .hs-form-required {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   margin-left: 0.275rem;
 }
@@ -5696,7 +5696,7 @@ form input[type="submit"] {
 }
 .hbspt-form .hs-submit .actions .hs-button {
   background-color: transparent;
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border: none;
   border-radius: 9999px;
@@ -5769,7 +5769,7 @@ section.has-background.has-grey-background-color .hbspt-form a,
 section.has-background.has-light-blue-background-color .hbspt-form a,
 section.has-background.has-light-grey-background-color .hbspt-form a,
 section.has-background.has-white-background-color .hbspt-form a {
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-primary-dark);
   text-decoration: underline;
 }
@@ -6048,7 +6048,7 @@ section.archive .badge-series svg {
 }
 .careersearch .result .result-list .item-posttype-job.item:hover h5,
 .careersearch .result .result-list .item-posttype-job.item:hover p {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
 }
 .wp-block-optiver-career-columns
@@ -6189,7 +6189,7 @@ section.archive .badge-series svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-dark-blue);
   color: #fff;
   display: -webkit-box;
@@ -6316,9 +6316,9 @@ section.archive .badge-series svg {
     left top,
     right top,
     from(#f30),
-    to(#1c3255)
+    to(#512b00f5)
   );
-  background-image: linear-gradient(90deg, #f30, #1c3255);
+  background-image: linear-gradient(90deg, #f30, #512b00f5);
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -6641,7 +6641,7 @@ section.archive .badge-series svg {
   article
   footer
   .btn-animate-icon:after {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border-radius: 20px;
   content: "";
@@ -6708,7 +6708,7 @@ section.archive .badge-series svg {
 .wp-block-optiver-vertical-slider
   .container
   .wp-block-optiver-vertical-slider-item.current {
-  border-left: 2px solid #00a2c5;
+  border-left: 2px solid #F1870F;
   border-left: 2px solid var(--color-orange);
 }
 .wp-block-optiver-vertical-slider .container .wp-block-column .wp-block-image {
@@ -6743,7 +6743,7 @@ section.archive .badge-series svg {
   z-index: 1;
 }
 .wp-block-optiver-office .background .bg-clocks div {
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-dark-blue);
   color: #fff;
   height: 100%;
@@ -7285,7 +7285,7 @@ section[data-type="optiver/form"]
   border-bottom: 1px solid var(--color-grey);
 }
 .wp-block-optiver-faq-item svg {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   cursor: pointer;
   margin-top: 1rem;
@@ -7758,7 +7758,7 @@ section[data-type="optiver/twitter"] .container #ctf #ctf-more {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   border-radius: 5px;
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-dark-blue);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8924,7 +8924,7 @@ section[data-type="optiver/twitter"]
   box-shadow: 0 0 2.5rem var(--color-darken);
 }
 .wp-block-optiver-trading .trading-products ul li.trading-product .bullet {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border-radius: 100%;
   float: left;
@@ -9146,7 +9146,7 @@ section[data-type="optiver/twitter"]
   top: 50%;
 }
 .wp-block-optiver-timeline .timeline-slide .timeline-block:after {
-  background: #00a2c5;
+  background: #F1870F;
   background: var(--color-orange);
   border-radius: 50%;
   content: "";
@@ -11139,7 +11139,7 @@ article.format-standard
   padding-left: 0;
 }
 .wp-block-optiver-locations .wp-block-optiver-location-contact ul li {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   list-style-type: none;
 }
@@ -11223,7 +11223,7 @@ article.format-standard
 }
 .wp-block-optiver-team .wp-block-optiver-team-block a,
 .wp-block-optiver-team .wp-block-optiver-team-block span {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
 }
 .swiper nav {
@@ -11679,7 +11679,7 @@ nav.subnavigation ul li.current_page_item > a {
   .result-list
   .item-posttype-event_recruiting.item:hover
   p {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
 }
 .wp-block-optiver-external-events
@@ -12581,7 +12581,7 @@ ul.has-background.has-white-background-color.hero
   }
 }
 .apply-now {
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-dark-blue);
   bottom: 0;
   color: #fff;
@@ -12807,13 +12807,13 @@ ul.has-background.has-white-background-color.hero
   position: relative;
 }
 [data-type="optiver/modal"] [data-type="optiver/modal-trigger"] {
-  border: 1px dashed #00a2c5;
+  border: 1px dashed #F1870F;
   border: 1px dashed var(--color-orange);
   padding: 1rem;
   position: relative;
 }
 [data-type="optiver/modal"] [data-type="optiver/modal-trigger"]:before {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   color: #fff;
   content: "trigger";
@@ -12824,13 +12824,13 @@ ul.has-background.has-white-background-color.hero
   z-index: 999;
 }
 [data-type="optiver/modal"] [data-type="optiver/modal-content"] {
-  border: 1px dashed #00a2c5;
+  border: 1px dashed #F1870F;
   border: 1px dashed var(--color-orange);
   padding: 1rem;
   position: relative;
 }
 [data-type="optiver/modal"] [data-type="optiver/modal-content"]:before {
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   color: #fff;
   content: "content";
@@ -12918,7 +12918,7 @@ body > header .container nav.header-main-menu {
     text-decoration: none;
   }
   body > header .container nav.header-main-menu ul.menu li a:hover {
-    color: #00a2c5;
+    color: #F1870F;
     color: var(--color-orange);
   }
   body
@@ -12935,7 +12935,7 @@ body > header .container nav.header-main-menu {
     ul.menu
     li.current_page_item
     > a {
-    color: #00a2c5;
+    color: #F1870F;
     color: var(--color-orange);
     font-weight: 500;
   }
@@ -12960,7 +12960,7 @@ body
 }
 body > header .container nav.header-hamburger-menu {
   -ms-scroll-chaining: none;
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-primary-dark);
   color: #ededed;
   color: var(--color-light-grey);
@@ -13303,7 +13303,7 @@ body
   > a,
 body > header .container nav.header-hamburger-menu ul.menu > li:hover > a,
 body > header .container nav.header-hamburger-menu ul.menu > li > a:hover {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
 }
 body > header .container nav.header-hamburger-menu ul.menu > li > a {
@@ -13554,7 +13554,7 @@ body > header #breadcrumbs nav p {
 }
 body > header #breadcrumbs #career-quicklink {
   -webkit-box-flex: 1;
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -13587,7 +13587,7 @@ body > header.transparent-light {
   color: var(--color-nearly-black);
 }
 body > header.transparent-light a {
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-primary-dark);
 }
 body > header.transparent-light svg {
@@ -13636,7 +13636,7 @@ main > article > section:first-of-type.hero-space {
   padding-top: clamp(4.5rem, 3.6rem + 4.5vw, 9rem);
 }
 body > footer {
-  background-color: #1c3255;
+  background-color: #512b00f5;
   background-color: var(--color-primary-dark);
   color: #fff;
   color: var(--color-white);
@@ -13935,7 +13935,7 @@ body
   .wp-block-social-link.wp-social-link-youtube {
   background-color: #fff;
   background-color: var(--color-white);
-  color: #1c3255;
+  color: #512b00f5;
   color: var(--color-dark-blue);
 }
 body > footer .container .footer-sub {
@@ -14149,7 +14149,7 @@ body.search
 }
 body.search section .search-box form.searchform > div input[type="submit"] {
   background-color: transparent;
-  background-color: #00a2c5;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border: none;
   border-radius: 9999px;
@@ -16042,7 +16042,7 @@ article.format-standard > footer .topics {
   border-top: 1px solid var(--color-grey);
 }
 article.format-standard > footer .topics span {
-  color: #00a2c5;
+  color: #F1870F;
   color: var(--color-orange);
   padding: 0.5rem;
 }
@@ -16250,7 +16250,7 @@ body.noscroll {
 //   top: 0;
 //   width: 0.25rem;
 //   height: 0.25rem;
-//   background: #00a2c5;
+//   background: #F1870F;
 // }
 .toggle_btn_action{
   width: 34px;

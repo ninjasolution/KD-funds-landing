@@ -9,7 +9,7 @@ const Onb = () => {
 
   return (
     <>
-      <div id="expertise" className="bg-[#94ADBF] relative z-50">
+      <div id="expertise" className="bg-[#512b00ab] relative z-50">
         <div
           data-aos="fade-up"
           data-aos-offset="150"
@@ -29,7 +29,7 @@ const Onb = () => {
               <div
                 onClick={() => setVisibility(0)}
                 className={`pl-5 cursor-pointer ${visibility == 0
-                  ? "border-l-2 border-[#00A2C5]"
+                  ? "border-l-2 border-[#F1870F]"
                   : "border-l-2 border-white"
                   }`}
               >
@@ -41,7 +41,7 @@ const Onb = () => {
               <div
                 onClick={() => setVisibility(1)}
                 className={`pl-5 mt-6 cursor-pointer ${visibility == 1
-                  ? "border-l-2 border-[#00A2C5]"
+                  ? "border-l-2 border-[#F1870F]"
                   : "border-l-2 border-white"
                   }`}
               >
@@ -53,7 +53,7 @@ const Onb = () => {
               <div
                 onClick={() => setVisibility(2)}
                 className={`pl-5 mt-6 cursor-pointer ${visibility == 2
-                  ? "border-l-2 border-[#00A2C5]"
+                  ? "border-l-2 border-[#F1870F]"
                   : "border-l-2 border-white"
                   }`}
               >
@@ -63,7 +63,7 @@ const Onb = () => {
               <div
                 onClick={() => setVisibility(3)}
                 className={`pl-5 mt-6 cursor-pointer ${visibility == 3
-                  ? "border-l-2 border-[#00A2C5]"
+                  ? "border-l-2 border-[#F1870F]"
                   : "border-l-2 border-white"
                   }`}
               >
@@ -73,7 +73,7 @@ const Onb = () => {
               <div
                 onClick={() => setVisibility(4)}
                 className={`pl-5 mt-6 cursor-pointer ${visibility == 4
-                  ? "border-l-2 border-[#00A2C5]"
+                  ? "border-l-2 border-[#F1870F]"
                   : "border-l-2 border-white"
                   }`}
               >

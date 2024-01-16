@@ -78,7 +78,7 @@ const Domains = () => {
 
   return (
     <>
-      <div id="studies" className="bg-[#1C3255]">
+      <div id="studies" className="bg-[#512b00f5]">
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div
             data-aos="fade-up"
@@ -101,7 +101,7 @@ const Domains = () => {
                     key={key}
                     onClick={() => setVisibility(key)}
                     className={`pl-5 mt-2 cursor-pointer ${visibility == key
-                      ? "border-l-2 border-[#00A2C5]"
+                      ? "border-l-2 border-[#F1870F]"
                       : "border-l-2 border-white"
                       }`}
                   >
