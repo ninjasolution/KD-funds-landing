@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Compass from "../../assets/images/Home/SBS_COMPASS.svg"
+import Compass from "../../assets/images/Home/SBS_COMPASS.svg";
 
 const Experience = () => {
   const marqueeData = [
@@ -38,7 +38,7 @@ const Experience = () => {
       category: "E",
       type: "FX",
       description: "Tamarama",
-    }
+    },
     // Add more data objects as needed
   ];
   const marqueeData1 = [
@@ -128,7 +128,7 @@ const Experience = () => {
       category: "W",
       type: "EQUITIES",
       description: "Leppington",
-    }
+    },
     // Add more data objects as needed
   ];
   useEffect(() => {
@@ -150,17 +150,37 @@ const Experience = () => {
           </div>
           <div className="flex w-full justify-between">
             <p className="lg:text-[34px] text-2xl text-white mt-4 mb-8 font-light century leading-[50px] md:max-w-[800px] w-full">
-            We provide finance to a range of supply & demand balanced suburbs throughout Sydney and are active across all density and class types. Location is key.
+              We provide finance to a range of supply & demand balanced suburbs
+              throughout Sydney and are active across all density and class
+              types. Location is key.
             </p>
             <div className="items-center justify-end">
-              <img src={Compass} width={200} alt="Compass" className="w-25 h-auto" />
+              <img
+                src={Compass}
+                width={200}
+                alt="Compass"
+                className="w-25 h-auto"
+              />
             </div>
           </div>
 
           <div>
-            <div className="wp-block-buttons">
-              <a className="btn btn2">Learn more</a>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" style={{ display: "none" }}>
+              <defs>
+                <symbol id="arrow" viewBox="0 0 100 100">
+                  <path d="M12.5 45.83h64.58v8.33H12.5z" />
+                  <path d="M59.17 77.92l-5.84-5.84L75.43 50l-22.1-22.08 5.84-5.84L87.07 50z" />
+                </symbol>
+              </defs>
+            </svg>
+            <a href="#" className="btn_new_24">
+              Learn more
+              <span>
+                <svg>
+                  <use xlink:href="#arrow" href="#arrow"></use>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
         <div
