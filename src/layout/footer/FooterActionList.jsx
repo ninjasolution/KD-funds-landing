@@ -1,13 +1,13 @@
 import React from "react";
-import { FooterMenuList } from "../../data/FooterMenuList";
 import FLogo from "../../assets/icons/logo.svg";
 import { Link } from "react-router-dom";
+import { menuList } from "../../config";
 
 function FooterActionList() {
   return (
     <>
       <div className="w-full mx-auto relative h-full py-5 bg-white xl:px-10 px-4">
-       
+
         <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-grey border-opacity-40 mt-20">
           <div className="flex md:justify-between gap-5 flex-wrap lg:flex-nowrap w-full">
             <div className="xl:w-[330px] md:w-[220px] w-full">
@@ -18,7 +18,7 @@ function FooterActionList() {
             </div>
             <div className="flex flex-col md:flex-row gap-5 lg:flex-nowrap flex-wrap lg:justify-between w-full">
               <div className="flex gap-5 justify-between w-full xl:flex-nowrap flex-wrap items-center">
-                {FooterMenuList.map((v, i) => {
+                {menuList.map((v, i) => {
                   return (
                     <ul
                       key={v.id}
@@ -27,13 +27,20 @@ function FooterActionList() {
                         : "flex-wrap md:w-[100px] w-full"
                         } `}
                     >
-                      <a
-                        href={v.link}
-                        className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
-                      >
-                        {v.name}
-                      </a>
-                      
+                      {
+                        v.link.includes("#") ?
+                          <a
+                            href={v.link}
+                            className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
+                          >
+                            {v.name}
+                          </a>
+                          :
+                          <Link to={v.link} className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und">
+                            {v.name}
+                          </Link>
+                      }
+
                     </ul>
                   );
                 })}
