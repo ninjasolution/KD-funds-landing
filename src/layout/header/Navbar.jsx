@@ -35,12 +35,12 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`pt-[0px] w-full z-[500] ${isFixed ? "fixed top-0 bg-white" : "bg-[rgba(255,255,255,.2)]"
-          }`}
+        className={`pt-[0px] w-full z-[500] ${
+          isFixed ? "fixed top-0 bg-white" : "bg-[rgba(255,255,255,.2)]"
+        }`}
       >
         <div className="container mx-auto w-full">
           <div className="flex items-center  gap-5 container mx-auto xl:pl-10 pl-4 xl:pr-10 pr-6  py-0">
-
             <div className="flex items-center 2xl:gap-20 gap-10">
               <Link
                 to="/"
@@ -60,32 +60,35 @@ function Navbar() {
                     key={`${v.id}_${i}`}
                     className="xl:h-[80px] lg:leading-[80px] leading-[50px] mr-[20px] relative group px-[15px] xl:px-0 text-center"
                   >
-                    {
-                      v.link.includes("#") ?
-                        <a
-                          onClick={headeritems}
-                          href={v.link}
-                          className={`text-${currentPath === v.link
-                            ? "[#F1870F]"
-                            : "[#3d4043]"
-                            } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${currentPath === v.link ? "font-bold pb-2" : "font-normal"
-                            }`}
-                        >
-                          {v.name}
-                        </a>
-                        :
-                        <Link
-                          onClick={headeritems}
-                          to={v.link}
-                          className={`text-${currentPath === v.link
-                            ? "[#F1870F]"
-                            : "[#3d4043]"
-                            } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${currentPath === v.link ? "font-bold pb-2" : "font-normal"
-                            }`}
-                        >
-                          {v.name}
-                        </Link>
-                    }
+                    {v.link.includes("#") ? (
+                      <a
+                        onClick={headeritems}
+                        href={v.link}
+                        className={`text-${
+                          currentPath === v.link ? "[#F1870F]" : "[#3d4043]"
+                        } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${
+                          currentPath === v.link
+                            ? "font-bold pb-2"
+                            : "font-normal"
+                        }`}
+                      >
+                        {v.name}
+                      </a>
+                    ) : (
+                      <Link
+                        onClick={headeritems}
+                        to={v.link}
+                        className={`text-${
+                          currentPath === v.link ? "[#F1870F]" : "[#3d4043]"
+                        } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${
+                          currentPath === v.link
+                            ? "font-bold pb-2"
+                            : "font-normal"
+                        }`}
+                      >
+                        {v.name}
+                      </Link>
+                    )}
 
                     {v?.list && (
                       <ul className="dropdown_list nav_arrow text-[#F1870F] xl:hidden group-hover:block box-shadow-dropdown static xl:absolute xl:top-[70px] xl:bg-lu-white xl:shadow-dropdown">
@@ -121,47 +124,56 @@ function Navbar() {
             >
               <span></span>
               <span></span>
-              <span></span>
             </button>
           </div>
         </div>
       </nav>
       <div
-        className={`w-[370px] bg-[#5d5d5df5] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${navToggle ? "end-0" : "end-[-400px]"
-          }`}
+        className={`w-[370px] bg-[#5d5d5df5] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${
+          navToggle ? "end-0" : "end-[-400px]"
+        }`}
       >
         <div
           onClick={navToggle ? toggleNavigation : ""}
-          className={`screen_darker  fixed w-[calc(100%-370px)] h-full top-0 start-[370px] z-[-1] duration-1000 ${navToggle ? "opacity-1 visible" : "opacity-0 invisible"
-            }`}
+          className={`screen_darker  fixed w-[calc(100%-370px)] h-full top-0 start-[370px] z-[-1] duration-1000 ${
+            navToggle ? "opacity-1 visible" : "opacity-0 invisible"
+          }`}
         ></div>
 
         <div className="container mx-auto px-4">
-
-          <button className="ml-4" onClick={toggleNavigation}>
-            <img src={CloseIcon} alt="close" />
-          </button>
+          <div className="text-end">
+            <button className="me-12 w-[75px] h-[40px] bg-[#F1870F] rounded-3xl inline-flex justify-center items-center" onClick={toggleNavigation}>
+              <img src={CloseIcon} alt="close" />
+            </button>
+          </div>
           <div className="mt-6 px-4">
-            {
-              menuList.map((item, key) => (
-                (
-                  item.link.includes("#") ?
-                    <a key={key} href={item.link} onClick={toggleNavigation} className="group ">
-                      <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
-                        <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
-                        {item.name}
-                      </p>
-                    </a>
-                    :
-                    <Link key={key} href={item.link} onClick={toggleNavigation} className="group ">
-                      <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
-                        <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
-                        {item.name}
-                      </p>
-                    </Link>
-                )
-              ))
-            }
+            {menuList.map((item, key) =>
+              item.link.includes("#") ? (
+                <a
+                  key={key}
+                  href={item.link}
+                  onClick={toggleNavigation}
+                  className="group "
+                >
+                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                    {item.name}
+                  </p>
+                </a>
+              ) : (
+                <Link
+                  key={key}
+                  href={item.link}
+                  onClick={toggleNavigation}
+                  className="group "
+                >
+                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                    {item.name}
+                  </p>
+                </Link>
+              )
+            )}
           </div>
         </div>
       </div>
