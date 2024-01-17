@@ -115,7 +115,7 @@ function Navbar() {
         </div>
       </nav>
       <div
-        className={`w-[370px] bg-[#512b00f5] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${navToggle ? "end-0" : "end-[-400px]"
+        className={`w-[370px] bg-[#5d5d5df5] fixed top-0 end-0 z-[90000] h-screen pt-10 overflow-auto xl:overflow-visible duration-500  ${navToggle ? "end-0" : "end-[-400px]"
           }`}
       >
         <div
