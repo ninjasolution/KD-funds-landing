@@ -54,7 +54,7 @@ function App() {
 
   const handleMouseMove = (e) => {
     // if a,button html tag hover
-    if (e.target.tagName === "A" || e.target.tagName === "BUTTON") {
+    if (e.target.tagName === "A" || e.target.tagName === "BUTTON" || e.target.tagName === "LI" || e.target.tagName === "P") {
       setSpanHeight(50);
       setSpanWidth(50);
       setHoverTop(e.pageY - 50 / 2);
