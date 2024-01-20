@@ -314,7 +314,13 @@ const Insights = ({
                             <ul className="py-2">
                               {item.list_object.map((item2, index) => {
                                 return (
-                                  <li className={`flex items-start ${item.list_object.length !== index+1? 'mb-3' : ''}  text-lg`}>
+                                  <li
+                                    className={`flex items-start ${
+                                      item.list_object.length !== index + 1
+                                        ? "mb-3"
+                                        : ""
+                                    }  text-lg`}
+                                  >
                                     <svg
                                       focusable="false"
                                       aria-hidden="true"
@@ -346,13 +352,19 @@ const Insights = ({
         </div>
         <div className={`2xl:max-w-[1300px] w-full mt-4 ${insightbtn}`}>
           <div className="wp-block-buttons">
-            <a href="#" className="btn_new_24">
+            {/* <a href="#" className="btn_new_24">
               All Insight
               <span>
                 <svg>
                   <use xlink:href="#arrow" href="#arrow"></use>
                 </svg>
               </span>
+            </a> */}
+
+            <a href="#" class="hover_btn_effect" data-attr=" All Insight">
+              {" "}
+              <span> All Insight </span>
+              <span class="hover_design"> </span>
             </a>
           </div>
         </div>

@@ -317,13 +317,22 @@ const Journey = () => {
                   ></div>
                   <div className="actions">
                     <div className="wp-block-buttons">
-                      <a className="btn_new_24" id="#">
+                      {/* <a className="btn_new_24" id="#">
                         Send
                         <span>
                           <svg>
                             <use xlink:href="#arrow" href="#arrow"></use>
                           </svg>
                         </span>
+                      </a> */}
+                      <a
+                        href="#"
+                        class="hover_btn_effect"
+                        data-attr="Send"
+                      >
+                        {" "}
+                        <span> Send </span>
+                        <span class="hover_design"> </span>
                       </a>
                     </div>
                   </div>

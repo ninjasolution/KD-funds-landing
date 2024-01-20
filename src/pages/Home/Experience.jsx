@@ -173,13 +173,18 @@ const Experience = () => {
                 </symbol>
               </defs>
             </svg>
-            <a href="#" className="btn_new_24">
+            {/* <a href="#" className="btn_new_24">
               Learn more
               <span>
                 <svg>
                   <use xlink:href="#arrow" href="#arrow"></use>
                 </svg>
               </span>
+            </a> */}
+            <a href="#" class="hover_btn_effect" data-attr="Learn more">
+              {" "}
+              <span> Learn more </span>
+              <span class="hover_design"> </span>
             </a>
           </div>
         </div>
