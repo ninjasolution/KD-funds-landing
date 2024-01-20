@@ -2536,8 +2536,12 @@ section.archive .result.items .result-list > * {
   margin: 0;
   min-height: 1.125rem;
 }
-.items .item.item-viewmode-grid,
-.items .item.item-viewmode-grid a {
+.items .item.item-viewmode-grid{
+  color: #000;
+
+}
+.items .item.item-viewmode-grid:hover,
+.items .item.item-viewmode-grid:hover a {
   color: #fff;
 }
 .arrow-next,
@@ -3726,7 +3730,7 @@ section[data-type="optiver/twitter"]
 }
 .__btn__animate:after,
 .btn-animate:after {
-  background-color: #f49f3f;
+  background-color: #F1870F;
   background-color: var(--color-orange);
   border-radius: 50%;
   content: "";
@@ -3741,16 +3745,16 @@ section[data-type="optiver/twitter"]
   z-index: -1;
 }
 .__btn__animate_hover,
-.items .item .btn-animate {
+.items .item:hover .btn-animate {
   color: #fff;
   color: var(--color-white);
 }
 .__btn__animate_hover:before,
-.items .item .btn-animate:before {
+.items .item:hover .btn-animate:before {
   width: 6.25rem;
 }
 .__btn__animate_hover:after,
-.items .item .btn-animate:after {
+.items .item:hover .btn-animate:after {
   -webkit-transform: scale(30);
   transform: scale(30);
   -webkit-transition-duration: 0.5s;

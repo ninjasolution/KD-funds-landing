@@ -31,172 +31,77 @@ const Insights = ({
 
   const insights = [
     {
-      title:
-        "Australia's tight rental market forces tenants to make tough choices",
+      title: "Australia's tight rental market forces tenants to make tough choices",
       author: "by Stella Qiu",
       image: "/HomeNew/0.jpg",
       createdAt: "October 30, 2023",
       url: "https://www.reuters.com/world/asia-pacific/australias-tight-rental-market-forces-tenants-make-tough-choices-2023-10-29",
-      name: "Owner",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+
     },
     {
-      title:
-        "Australian housing market 2023: Prices were supposed to go down but they went up. What will 2024 bring?",
+      title: "Australian housing market 2023: Prices were supposed to go down but they went up. What will 2024 bring?",
       author: "By Ellen Lutt on and Allison Worrall",
       image: "/HomeNew/1.jpg",
       createdAt: "November 30, 2023",
-      url: "https://www.dropbox.com/scl/fo/hp36hdm1ilm3t8rlq57s3/h?dl=0&preview=Australian+housing+market+2023_+Prices+were+supposed+to+go+down+but+they+went+up.+What+will+2024+bring_.pdf&rlkey=jhcb3prwkjmpuzmkh7pcvqida",
-      name: "Asset Manager",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.dropbox.com/scl/fo/hp36hdm1ilm3t8rlq57s3/h?dl=0&preview=Australian+housing+market+2023_+Prices+were+supposed+to+go+down+but+they+went+up.+What+will+2024+bring_.pdf&rlkey=jhcb3prwkjmpuzmkh7pcvqida"
     },
     {
-      title:
-        "Minns to lift council bans on terraces, townhouses and low-rise apartments",
+      title: "Minns to lift council bans on terraces, townhouses and low-rise apartments",
       author: "by Alexandra Smith and Michael McGowan",
       image: "/HomeNew/2.jpg",
       createdAt: "November 28, 2023",
-      url: "https://www.smh.com.au/politics/nsw/minns-to-lift-council-bans-on-terraces-townhouses-and-low-rise-apartments-20231127-p5en4y.html",
-      name: "Property/Facility",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.smh.com.au/politics/nsw/minns-to-lift-council-bans-on-terraces-townhouses-and-low-rise-apartments-20231127-p5en4y.html"
     },
     {
       title: "Where property owners are selling at a Loss",
       author: "by Elizabeth Redman",
       image: "/HomeNew/3.jpg",
       createdAt: "December 21, 2023",
-      url: "https://www.smh.com.au/property/news/where-property-owners-are-selling-at-a-loss-20231220-p5esv0.html",
-      name: "Owner",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.smh.com.au/property/news/where-property-owners-are-selling-at-a-loss-20231220-p5esv0.html"
     },
     {
       title: "Undersupply of new homes to trigger next boom, but not yet",
       author: "by Nila Sweeney",
       image: "/HomeNew/4.jpg",
       createdAt: "December 17, 2023",
-      url: "https://www.afr.com/property/residential/undersupply-of-new-homes-to-trigger-next-boom-but-not-yet-20231215-p5ersm",
-      name: "Asset Manager",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.afr.com/property/residential/undersupply-of-new-homes-to-trigger-next-boom-but-not-yet-20231215-p5ersm"
     },
     {
-      title:
-        "The collapse in US office tower values is creating a doom loop for banks",
+      title: "The collapse in US office tower values is creating a doom loop for banks",
       author: "by Karen Maley",
       image: "/HomeNew/5.jpg",
       createdAt: "July 9, 2023",
-      url: "https://www.afr.com/companies/financial-services/the-collapse-in-us-office-tower-values-is-creating-a-doom-loop-for-banks-20230709-p5dmt1",
-      name: "Owner",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.afr.com/companies/financial-services/the-collapse-in-us-office-tower-values-is-creating-a-doom-loop-for-banks-20230709-p5dmt1"
     },
     {
-      title:
-        "Private credit sees opportunity in Australia real estate as banks hesitate",
+      title: "Private credit sees opportunity in Australia real estate as banks hesitate",
       author: "by Lewis Jackson and Rae Wee",
       image: "/HomeNew/6.jpg",
       createdAt: "November 6, 2023",
-      url: "https://www.reuters.com/business/finance/private-credit-sees-opportunity-australia-real-estate-banks-hesitate-2023-11-05/",
-      name: "Asset Manager",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.reuters.com/business/finance/private-credit-sees-opportunity-australia-real-estate-banks-hesitate-2023-11-05/"
     },
     {
       title: "Rising costs hit pipeline of cheaper apartments",
       author: "by Michael Bleby",
       image: "/HomeNew/7.jpg",
       createdAt: "September 7, 2023",
-      url: "https://www.afr.com/property/residential/rising-costs-hit-pipeline-of-cheaper-apartments-20230907-p5e2oy",
-      name: "Property/Facility",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.afr.com/property/residential/rising-costs-hit-pipeline-of-cheaper-apartments-20230907-p5e2oy"
     },
     {
-      title:
-        "Blackstone wants a bigger slice of Australia’s build-to-rent market",
+      title: "Blackstone wants a bigger slice of Australia’s build-to-rent market",
       author: "by Nick Lenaghan",
       image: "/HomeNew/8.jpg",
       createdAt: "Febrary 6, 2023",
-      url: "https://www.afr.com/property/commercial/blackstone-wants-a-bigger-slice-of-australia-s-build-to-rent-market-20230206-p5ci7t",
-      name: "Asset Manager",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.afr.com/property/commercial/blackstone-wants-a-bigger-slice-of-australia-s-build-to-rent-market-20230206-p5ci7t"
     },
     {
       title: "Housing targets at risk as building stalls at decade-low pace",
       author: "by Michael Bleby and Campbell Kwan",
       image: "/HomeNew/9.jpg",
       createdAt: "January 4, 2024",
-      url: "https://www.afr.com/property/commercial/housing-targets-at-risk-as-building-stalls-at-decade-low-pace-20231207-p5eprv",
-      name: "Asset Manager",
-      list_object: [
-        "Improve asset liquidity",
-        "Consolidate all the documentation in one place",
-        "Lower operating costs",
-        "Have a 360 and intuitive reproduction of your Building",
-        "Connect to Web3 with a wallet",
-        "Create digital value for the building (digital assets)",
-      ],
+      url: "https://www.afr.com/property/commercial/housing-targets-at-risk-as-building-stalls-at-decade-low-pace-20231207-p5eprv"
     },
-  ];
+  ]
 
   return (
     <>
@@ -291,7 +196,7 @@ const Insights = ({
                               srcSet={item.image}
                             />
 
-                            {/* <div className="badge-series absolute top-3 left-3 bg-white rounded-full w-[100px] flex gap-2 items-center py-2 px-2">
+                            <div className="badge-series absolute top-3 left-3 bg-white rounded-full w-[100px] flex gap-2 items-center py-2 px-2">
                               <svg
                                 width={11}
                                 height={11}
@@ -306,39 +211,51 @@ const Insights = ({
                                   fill="#3D4043"
                                 />
                               </svg>
-                              <span className="btn3 text-term">EXTERNAL</span>
-                            </div> */}
+                              <span className="btn3 text-term text-black">EXTERNAL</span>
+                            </div>
                           </header>
-                          <main className="text-black !pt-8 insight_card_main overflow-hidden relative">
-                            <h4 className="text-3xl">{item.name}</h4>
-                            <ul className="py-2">
-                              {item.list_object.map((item2, index) => {
-                                return (
-                                  <li
-                                    className={`flex items-start ${
-                                      item.list_object.length !== index + 1
-                                        ? "mb-3"
-                                        : ""
-                                    }  text-lg`}
-                                  >
-                                    <svg
-                                      focusable="false"
-                                      aria-hidden="true"
-                                      fill="#f49f3f"
-                                      viewBox="0 0 24 24"
-                                      data-testid="CheckIcon"
-                                      tabIndex={-1}
-                                      title="Check"
-                                      className="h-[20px] mr-2 mt-2"
-                                    >
-                                      <path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                                    </svg>
-                                    {item2}
-                                  </li>
-                                );
-                              })}
-                            </ul>
+                          <main>
+                            <span>
+                              {item.createdAt}
+                            </span>
+                            <h2 className="h4 ss bold">
+                              <a target="_blank" href={item.url}>
+                                {`${item.title} `}
+                              </a>
+                            </h2>
+                            <p>
+                              In this article, we trace how Brazil’s B3 built one of
+                              the most successful global SSO markets almost from
+                              scratch, providing an example for exchanges around the
+                              globe.{" "}
+                            </p>
+                            <a
+                              className="btn-animate"
+                              target="_blank"
+                              href={item.url}
+                            >
+                              <span className="sr-only">Learn more</span>
+                              <span>
+                                <svg
+                                  width={5}
+                                  height={8}
+                                  viewBox="0 0 5 8"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                    d="M1.3382 0.146446L4.5202 3.32843C4.7155 3.52369 4.7155 3.84027 4.5202 4.03553L1.3382 7.21751C1.143 7.41278 0.826399 7.41278 0.631099 7.21751C0.435899 7.02225 0.435899 6.70567 0.631099 6.51041L2.9596 4.18198L2.9596 3.18198L0.631099 0.853553C0.435899 0.658291 0.435899 0.341709 0.631099 0.146446C0.826399 -0.0488155 1.143 -0.0488155 1.3382 0.146446Z"
+                                    fill="currentColor"
+                                  />
+                                </svg>
+                              </span>
+                            </a>
                           </main>
+                          <footer>
+                            <span>{item.author}</span>
+                          </footer>
                         </article>
                       </li>
                     </SwiperSlide>
