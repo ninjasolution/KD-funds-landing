@@ -64,7 +64,7 @@ const Journey = () => {
               <div className="w-20 h-[1px] bg-[#3d4043]"></div>
             </div>
             <h1 className="text-center lg:text-[56px] text-4xl text-[#3d4043] mt-6 mb-10">
-              Say In Touch
+              Stay In Touch
             </h1>
             <h2 className="wp-block-heading text-center">
               Fill in your details below to hear back from one of our team.
