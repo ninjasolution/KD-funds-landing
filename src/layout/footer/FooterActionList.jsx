@@ -8,7 +8,7 @@ function FooterActionList() {
     <>
       <div className="w-full mx-auto relative h-full py-5 bg-white xl:px-10 px-4">
 
-        <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-grey border-opacity-40 mt-20">
+        <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-[#e53b16] border-opacity-40 mt-20">
           <div className="flex md:justify-between gap-5 flex-wrap lg:flex-nowrap w-full">
             <div className="xl:w-[330px] md:w-[220px] w-full">
               <Link>
@@ -47,7 +47,7 @@ function FooterActionList() {
               </div>
             </div>
           </div>
-          <div className="border-t border-grey border-opacity-40 pt-5 flex md:justify-between gap-4 items-center mt-10 flex-wrap">
+          <div className="border-t border-[#e53b16] border-opacity-40 pt-5 flex md:justify-between gap-4 items-center mt-10 flex-wrap">
 
             <div className="flex gap-4 items-center md:flex-nowrap flex-wrap">
               <Link to="#">

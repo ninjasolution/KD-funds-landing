@@ -17,7 +17,7 @@ const Mission = () => {
           >
             <h1 className="century text-[#3d4043] lg:text-[76px] text-4xl md:leading-[90px]">
               Our mission:
-              <span className="text-[#F1870F]">
+              <span className="text-[#e53b16]">
                 {" "}
                 Commercial and Wholesale Lending Solutions{" "}
               </span>{" "}
