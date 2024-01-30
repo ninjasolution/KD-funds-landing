@@ -50,7 +50,7 @@ const Onb = () => {
                 onClick={() => changeSlideIndex(0)}
                 className={`pl-5 cursor-pointer ${
                   swiperCount == 0
-                    ? "border-l-2 border-[#e53b16]"
+                    ? "border-l-2 border-[#F1870F]"
                     : "border-l-2 border-white"
                 }`}
               >
@@ -63,7 +63,7 @@ const Onb = () => {
                 onClick={() => changeSlideIndex(1)}
                 className={`pl-5 mt-6 cursor-pointer ${
                   swiperCount == 1
-                    ? "border-l-2 border-[#e53b16]"
+                    ? "border-l-2 border-[#F1870F]"
                     : "border-l-2 border-white"
                 }`}
               >
@@ -76,7 +76,7 @@ const Onb = () => {
                 onClick={() => changeSlideIndex(2)}
                 className={`pl-5 mt-6 cursor-pointer ${
                   swiperCount == 2
-                    ? "border-l-2 border-[#e53b16]"
+                    ? "border-l-2 border-[#F1870F]"
                     : "border-l-2 border-white"
                 }`}
               >
@@ -89,7 +89,7 @@ const Onb = () => {
                 onClick={() => changeSlideIndex(3)}
                 className={`pl-5 mt-6 cursor-pointer ${
                   swiperCount == 3
-                    ? "border-l-2 border-[#e53b16]"
+                    ? "border-l-2 border-[#F1870F]"
                     : "border-l-2 border-white"
                 }`}
               >
@@ -102,7 +102,7 @@ const Onb = () => {
                 onClick={() => changeSlideIndex(4)}
                 className={`pl-5 mt-6 cursor-pointer ${
                   swiperCount == 4
-                    ? "border-l-2 border-[#e53b16]"
+                    ? "border-l-2 border-[#F1870F]"
                     : "border-l-2 border-white"
                 }`}
               >

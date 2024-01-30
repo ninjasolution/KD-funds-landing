@@ -65,8 +65,8 @@ function Navbar() {
                         onClick={headeritems}
                         href={v.link}
                         className={`text-${
-                          currentPath === v.link ? "[#e53b16]" : "[#3d4043]"
-                        } border-b border-transparent hover:no-underline text-lg hover:text-[#e53b16] ${
+                          currentPath === v.link ? "[#F1870F]" : "[#3d4043]"
+                        } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${
                           currentPath === v.link
                             ? "font-bold pb-2"
                             : "font-normal"
@@ -79,8 +79,8 @@ function Navbar() {
                         onClick={headeritems}
                         to={v.link}
                         className={`text-${
-                          currentPath === v.link ? "[#e53b16]" : "[#3d4043]"
-                        } border-b border-transparent hover:no-underline text-lg hover:text-[#e53b16] ${
+                          currentPath === v.link ? "[#F1870F]" : "[#3d4043]"
+                        } border-b border-transparent hover:no-underline text-lg hover:text-[#F1870F] ${
                           currentPath === v.link
                             ? "font-bold pb-2"
                             : "font-normal"
@@ -91,7 +91,7 @@ function Navbar() {
                     )}
 
                     {v?.list && (
-                      <ul className="dropdown_list nav_arrow text-[#e53b16] xl:hidden group-hover:block box-shadow-dropdown static xl:absolute xl:top-[70px] xl:bg-lu-white xl:shadow-dropdown">
+                      <ul className="dropdown_list nav_arrow text-[#F1870F] xl:hidden group-hover:block box-shadow-dropdown static xl:absolute xl:top-[70px] xl:bg-lu-white xl:shadow-dropdown">
                         {v?.list.map((j) => {
                           return (
                             <li key={j.id} className="xl:hover:bg-lu-primary-2">
@@ -116,9 +116,9 @@ function Navbar() {
                 "--bg-toggle":
                   window.location.pathname === "/"
                     ? isFixed
-                      ? "#e53b16"
-                      : "#e53b16"
-                    : "#e53b16",
+                      ? "#F1870F"
+                      : "#F1870F"
+                    : "#F1870F",
               }}
               className="toggle_btn_action ml-auto xl:ml-10"
             >
@@ -142,7 +142,7 @@ function Navbar() {
 
         <div className="container mx-auto px-4">
           <div className="text-end">
-            <button className="me-12 w-[75px] h-[40px] bg-[#e53b16] rounded-3xl inline-flex justify-center items-center" onClick={toggleNavigation}>
+            <button className="me-12 w-[75px] h-[40px] bg-[#F1870F] rounded-3xl inline-flex justify-center items-center" onClick={toggleNavigation}>
               <img src={CloseIcon} alt="close" />
             </button>
           </div>
@@ -155,8 +155,8 @@ function Navbar() {
                   onClick={toggleNavigation}
                   className="group "
                 >
-                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#e53b16] transition-all duration-500">
-                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#e53b16] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
                     {item.name}
                   </p>
                 </a>
@@ -167,8 +167,8 @@ function Navbar() {
                   onClick={toggleNavigation}
                   className="group "
                 >
-                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#e53b16] transition-all duration-500">
-                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#e53b16] mr-0 group-hover:mr-3 transition-all duration-500"></span>
+                  <p className="text-[32px] text-white cursor-pointer flex items-center group-hover:text-[#F1870F] transition-all duration-500">
+                    <span className="inline-block w-[0px] group-hover:w-[25px] h-[3px] bg-[#F1870F] mr-0 group-hover:mr-3 transition-all duration-500"></span>
                     {item.name}
                   </p>
                 </Link>

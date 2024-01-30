@@ -38,7 +38,7 @@ const Alignment = () => {
                     key={key}
                     onClick={() => setVisibility(key)}
                     className={`pl-5 mt-3 cursor-pointer ${visibility == key
-                      ? "border-l-2 border-[#e53b16]"
+                      ? "border-l-2 border-[#F1870F]"
                       : "border-l-2 border-white"
                       }`}
                   >

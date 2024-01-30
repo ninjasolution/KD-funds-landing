@@ -352,7 +352,7 @@ const Journey = () => {
             }
             <ul className="flex space-x-5 ml-5">
               {data.map((row, index) => (
-                <li key={index} className={(parseInt(index) === tabIndex) ? 'text-[#e53b16]' : ''}>
+                <li key={index} className={(parseInt(index) === tabIndex) ? 'text-[#F1870F]' : ''}>
                   <Link to={"#"} onClick={() => setTabIndex(index)}>{row}</Link>
                 </li>
               ))}

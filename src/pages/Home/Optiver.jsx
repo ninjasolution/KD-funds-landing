@@ -18,7 +18,7 @@ const SBS = () => {
           >
             <h1 className="century text-[#3d4043] lg:text-[56px] text-4xl leading-[70px]">
               Sydney Specialist
-              <p className="lg:text-[40px] text-3xl text-[#e53b16]">
+              <p className="lg:text-[40px] text-3xl text-[#F1870F]">
                 Property & Building Financier
               </p>
             </h1>

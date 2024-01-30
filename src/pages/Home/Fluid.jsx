@@ -143,7 +143,7 @@ const Fluid = () => {
               <HighchartsReact highcharts={Highcharts} options={options} />
             </div>
             <div className="content ">
-              <h3 className="text-[#e53b16] text-4xl">
+              <h3 className="text-[#F1870F] text-4xl">
                 Diversified Across <br /> Multiple Housing Stock
               </h3>
 
@@ -152,7 +152,7 @@ const Fluid = () => {
                   return (
                     <li key={value.id} className="flex items-center mb-3">
                       <img src={value.icon} alt="" />
-                      <span className="text-[#e53b16] font-bold px-4 text-[40px]">
+                      <span className="text-[#F1870F] font-bold px-4 text-[40px]">
                         {value.percentage}
                       </span>
                       <p className="text-black max-w-[250px]">{value.name}</p>
