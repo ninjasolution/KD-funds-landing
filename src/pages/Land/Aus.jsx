@@ -10,11 +10,11 @@ const Aus = () => {
     <>
       <div className="relative">
         <img src={W1} alt="w1" className="absolute top-0 right-0 w-[200px]" />
-        <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto right-0 w-[200px]" />
+        {/* <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto right-0 w-[200px]" /> */}
         <img
           src={W1}
           alt="w1"
-          className="absolute right-0 bottom-0 w-[200px]"
+          className="absolute right-0 bottom-[-10%] w-[200px]"
         />
         <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24 relative">
           <div className="flex gap-4 justify-center xl:flex-nowrap flex-wrap">

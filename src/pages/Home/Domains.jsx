@@ -80,8 +80,8 @@ const Domains = () => {
   return (
     <>
       <div id="studies" className="bg-[#5d5d5d] relative">
-      <img src={W1} alt="w1" className="absolute right-0 top-0 w-[200px]" />
-      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[400px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-[-20%] w-[200px]" />
+      <img src={W1} alt="w1" className="absolute right-0 top-0 bottom-0 my-auto w-[100px]" />
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div
             data-aos="fade-up"

@@ -11,7 +11,7 @@ const LandHeros = () => {
         data-aos-offset="150"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
-        className="relative lg:h-[700px] h-[300px] flex justify-center items-center"
+        className="relative lg:h-[700px] h-[300px] flex justify-center items-center z-50"
       >
         <img
           src={Me}

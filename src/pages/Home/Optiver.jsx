@@ -7,8 +7,8 @@ const SBS = () => {
   }, []);
   return (
     <div className="relative">
-      <img src={W1} alt="w1" className="absolute right-0 w-[300px] md:-top-10 -top-10" />
-      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute right-0 w-[200px] md:top-[-20%] -top-10" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[200px]" />
 
       <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24 xl:mt-0 md:mt-12">
         <div className="flex gap-4 justify-center xl:flex-nowrap flex-wrap">

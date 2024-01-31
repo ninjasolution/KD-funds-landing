@@ -50,14 +50,14 @@ const Journey = () => {
   return (
     <>
       <div className="bg-[#F0F6FC] relative">
-      <img src={W1} alt="w1" className="absolute bottom-0 right-0 w-[330px]" />
-      <img src={W1} alt="w1" className="absolute top-0 bottom-0 right-0 my-auto w-[250px]" />
+      <img src={W1} alt="w1" className="absolute bottom-[-25%] right-0 w-[200px]" />
+      <img src={W1} alt="w1" className="absolute top-0 bottom-0 right-0 my-auto w-[450px]" />
       {/* <img src={W1} alt="w1" className="absolute right-0 w-[100px]" /> */}
-        <img
+        {/* <img
           src={W1}
           alt="w1"
           className="absolute right-0 top-0 w-[180px]"
-        />
+        /> */}
         <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24">
           <div
             data-aos="fade-up"

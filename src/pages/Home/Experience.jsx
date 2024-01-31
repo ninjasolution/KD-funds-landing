@@ -137,17 +137,19 @@ const Experience = () => {
   }, []);
   return (
     <>
+    <div className="relative">
+
       <div className="bg-[#5d5d5d] lg:py-36 py-24 relative">
-        <img src={W1} alt="w1" className="absolute top-0 right-0 w-[300px]" />
         <img
           src={W1}
           alt="w1"
-          className="absolute right-0 top-0 my-auto bottom-0 w-[200px]"
+          className="absolute right-0 top-[-1%]  w-[200px]"
         />
+        {/* <img src={W1} alt="w1" className="absolute bottom-0 right-0 w-[300px]" /> */}
         <img
           src={W1}
           alt="w1"
-          className="absolute right-0 bottom-0 w-[200px]"
+          className="absolute right-0 bottom-[-20%] w-[200px]"
         />
         <div
           data-aos="fade-up"
@@ -264,6 +266,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
+    </div>
     </>
   );
 };

@@ -127,9 +127,9 @@ const Fluid = () => {
 
   return (
     <>
-    <div className="relative">
-    <img src={W1} alt="w1" className="absolute right-0 w-[400px]" />
-      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[200px]" />
+    <div className="relative z-50">
+    <img src={W1} alt="w1" className="absolute top-[-20%] right-0 w-[250px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-[-20%] w-[200px]" />
       <div id="fluid">
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div className="flex">

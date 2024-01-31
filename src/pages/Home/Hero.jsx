@@ -6,7 +6,7 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div className="relative md:h-[800px] h-[400px] flex justify-center items-center -mt-24">
+      <div className="relative md:h-[800px] h-[400px] flex justify-center items-center -mt-24 z-50">
         <figure className="w-full absolute -top-8 -z-10">
           <video
             className="md:h-[800px] h-[400px] w-full object-cover"
