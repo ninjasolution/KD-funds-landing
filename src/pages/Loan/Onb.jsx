@@ -31,9 +31,9 @@ const Onb = () => {
   return (
     <>
       <div id="expertise" className="bg-[#5d5d5d] relative z-50">
-      <img src={W1} alt="w1" className="absolute top-0 right-0 w-[150px]" />
+      {/* <img src={W1} alt="w1" className="absolute top-0 right-0 w-[150px]" /> */}
       {/* <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto right-0 w-[350px]" /> */}
-      <img src={W1} alt="w1" className="absolute right-0 bottom-0 top-0 my-auto w-[150px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[150px]" />
         <div
           data-aos="fade-up"
           data-aos-offset="150"
