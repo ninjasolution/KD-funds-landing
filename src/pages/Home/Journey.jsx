@@ -50,7 +50,7 @@ const Journey = () => {
   return (
     <>
       <div className="bg-[#F0F6FC] relative">
-      <img src={W1} alt="w1" className="absolute bottom-[-25%] right-0 w-[200px]" />
+      {/* <img src={W1} alt="w1" className="absolute bottom-[-25%] right-0 w-[200px]" /> */}
       <img src={W1} alt="w1" className="absolute top-0 bottom-0 right-0 my-auto w-[450px]" />
       {/* <img src={W1} alt="w1" className="absolute right-0 w-[100px]" /> */}
         {/* <img

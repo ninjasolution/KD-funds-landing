@@ -119,7 +119,7 @@ const Insights = ({
         data-aos-duration="1000"
         className={`lg:py-36 py-24 2xl:pl-[180px] xl:pl-10 pl-4 relative ${insightbg}`}
       >
-        <img src={W1} alt="w1" className="absolute right-0 top-0 w-[200px]" />
+        {/* <img src={W1} alt="w1" className="absolute right-0 top-0 w-[200px]" /> */}
         <img
           src={W1}
           alt="w1"
