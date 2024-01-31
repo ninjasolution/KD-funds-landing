@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Compass from "../../assets/images/Home/SBS_COMPASS.svg";
+import W1 from "../../assets/images/kd_symbol1@2x.png";
 
 const Experience = () => {
   const marqueeData = [
@@ -136,7 +137,13 @@ const Experience = () => {
   }, []);
   return (
     <>
-      <div className="bg-[#5d5d5d] lg:py-36 py-24">
+      <div className="bg-[#5d5d5d] lg:py-36 py-24 relative">
+        <img src={W1} alt="w1" className="absolute top-0 right-0 w-[300px]" />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 bottom-0 w-[300px]"
+        />
         <div
           data-aos="fade-up"
           data-aos-offset="150"

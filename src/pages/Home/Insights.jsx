@@ -3,6 +3,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import W1 from "../../assets/images/kd_symbol1@2x.png";
 
 const Insights = ({
   insightbg,
@@ -31,77 +32,82 @@ const Insights = ({
 
   const insights = [
     {
-      title: "Australia's tight rental market forces tenants to make tough choices",
+      title:
+        "Australia's tight rental market forces tenants to make tough choices",
       author: "by Stella Qiu",
       image: "/HomeNew/0.jpg",
       createdAt: "October 30, 2023",
       url: "https://www.reuters.com/world/asia-pacific/australias-tight-rental-market-forces-tenants-make-tough-choices-2023-10-29",
-
     },
     {
-      title: "Australian housing market 2023: Prices were supposed to go down but they went up. What will 2024 bring?",
+      title:
+        "Australian housing market 2023: Prices were supposed to go down but they went up. What will 2024 bring?",
       author: "By Ellen Lutt on and Allison Worrall",
       image: "/HomeNew/1.jpg",
       createdAt: "November 30, 2023",
-      url: "https://www.dropbox.com/scl/fo/hp36hdm1ilm3t8rlq57s3/h?dl=0&preview=Australian+housing+market+2023_+Prices+were+supposed+to+go+down+but+they+went+up.+What+will+2024+bring_.pdf&rlkey=jhcb3prwkjmpuzmkh7pcvqida"
+      url: "https://www.dropbox.com/scl/fo/hp36hdm1ilm3t8rlq57s3/h?dl=0&preview=Australian+housing+market+2023_+Prices+were+supposed+to+go+down+but+they+went+up.+What+will+2024+bring_.pdf&rlkey=jhcb3prwkjmpuzmkh7pcvqida",
     },
     {
-      title: "Minns to lift council bans on terraces, townhouses and low-rise apartments",
+      title:
+        "Minns to lift council bans on terraces, townhouses and low-rise apartments",
       author: "by Alexandra Smith and Michael McGowan",
       image: "/HomeNew/2.jpg",
       createdAt: "November 28, 2023",
-      url: "https://www.smh.com.au/politics/nsw/minns-to-lift-council-bans-on-terraces-townhouses-and-low-rise-apartments-20231127-p5en4y.html"
+      url: "https://www.smh.com.au/politics/nsw/minns-to-lift-council-bans-on-terraces-townhouses-and-low-rise-apartments-20231127-p5en4y.html",
     },
     {
       title: "Where property owners are selling at a Loss",
       author: "by Elizabeth Redman",
       image: "/HomeNew/3.jpg",
       createdAt: "December 21, 2023",
-      url: "https://www.smh.com.au/property/news/where-property-owners-are-selling-at-a-loss-20231220-p5esv0.html"
+      url: "https://www.smh.com.au/property/news/where-property-owners-are-selling-at-a-loss-20231220-p5esv0.html",
     },
     {
       title: "Undersupply of new homes to trigger next boom, but not yet",
       author: "by Nila Sweeney",
       image: "/HomeNew/4.jpg",
       createdAt: "December 17, 2023",
-      url: "https://www.afr.com/property/residential/undersupply-of-new-homes-to-trigger-next-boom-but-not-yet-20231215-p5ersm"
+      url: "https://www.afr.com/property/residential/undersupply-of-new-homes-to-trigger-next-boom-but-not-yet-20231215-p5ersm",
     },
     {
-      title: "The collapse in US office tower values is creating a doom loop for banks",
+      title:
+        "The collapse in US office tower values is creating a doom loop for banks",
       author: "by Karen Maley",
       image: "/HomeNew/5.jpg",
       createdAt: "July 9, 2023",
-      url: "https://www.afr.com/companies/financial-services/the-collapse-in-us-office-tower-values-is-creating-a-doom-loop-for-banks-20230709-p5dmt1"
+      url: "https://www.afr.com/companies/financial-services/the-collapse-in-us-office-tower-values-is-creating-a-doom-loop-for-banks-20230709-p5dmt1",
     },
     {
-      title: "Private credit sees opportunity in Australia real estate as banks hesitate",
+      title:
+        "Private credit sees opportunity in Australia real estate as banks hesitate",
       author: "by Lewis Jackson and Rae Wee",
       image: "/HomeNew/6.jpg",
       createdAt: "November 6, 2023",
-      url: "https://www.reuters.com/business/finance/private-credit-sees-opportunity-australia-real-estate-banks-hesitate-2023-11-05/"
+      url: "https://www.reuters.com/business/finance/private-credit-sees-opportunity-australia-real-estate-banks-hesitate-2023-11-05/",
     },
     {
       title: "Rising costs hit pipeline of cheaper apartments",
       author: "by Michael Bleby",
       image: "/HomeNew/7.jpg",
       createdAt: "September 7, 2023",
-      url: "https://www.afr.com/property/residential/rising-costs-hit-pipeline-of-cheaper-apartments-20230907-p5e2oy"
+      url: "https://www.afr.com/property/residential/rising-costs-hit-pipeline-of-cheaper-apartments-20230907-p5e2oy",
     },
     {
-      title: "Blackstone wants a bigger slice of Australia’s build-to-rent market",
+      title:
+        "Blackstone wants a bigger slice of Australia’s build-to-rent market",
       author: "by Nick Lenaghan",
       image: "/HomeNew/8.jpg",
       createdAt: "Febrary 6, 2023",
-      url: "https://www.afr.com/property/commercial/blackstone-wants-a-bigger-slice-of-australia-s-build-to-rent-market-20230206-p5ci7t"
+      url: "https://www.afr.com/property/commercial/blackstone-wants-a-bigger-slice-of-australia-s-build-to-rent-market-20230206-p5ci7t",
     },
     {
       title: "Housing targets at risk as building stalls at decade-low pace",
       author: "by Michael Bleby and Campbell Kwan",
       image: "/HomeNew/9.jpg",
       createdAt: "January 4, 2024",
-      url: "https://www.afr.com/property/commercial/housing-targets-at-risk-as-building-stalls-at-decade-low-pace-20231207-p5eprv"
+      url: "https://www.afr.com/property/commercial/housing-targets-at-risk-as-building-stalls-at-decade-low-pace-20231207-p5eprv",
     },
-  ]
+  ];
 
   return (
     <>
@@ -111,8 +117,14 @@ const Insights = ({
         data-aos-offset="150"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
-        className={`lg:py-36 py-24 2xl:pl-[180px] xl:pl-10 pl-4 ${insightbg}`}
+        className={`lg:py-36 py-24 2xl:pl-[180px] xl:pl-10 pl-4 relative ${insightbg}`}
       >
+        <img src={W1} alt="w1" className="absolute right-0 top-0 w-[300px]" />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 bottom-0 w-[300px]"
+        />
         <div className="lg:max-w-[1370px] w-full ">
           <div className="md:max-w-[500px] w-full">
             <div className="flex gap-4 items-center">
@@ -211,23 +223,23 @@ const Insights = ({
                                   fill="#3D4043"
                                 />
                               </svg>
-                              <span className="btn3 text-term text-black">EXTERNAL</span>
+                              <span className="btn3 text-term text-black">
+                                EXTERNAL
+                              </span>
                             </div>
                           </header>
                           <main>
-                            <span>
-                              {item.createdAt}
-                            </span>
+                            <span>{item.createdAt}</span>
                             <h2 className="h4 ss bold">
                               <a target="_blank" href={item.url}>
                                 {`${item.title} `}
                               </a>
                             </h2>
                             <p>
-                              In this article, we trace how Brazil’s B3 built one of
-                              the most successful global SSO markets almost from
-                              scratch, providing an example for exchanges around the
-                              globe.{" "}
+                              In this article, we trace how Brazil’s B3 built
+                              one of the most successful global SSO markets
+                              almost from scratch, providing an example for
+                              exchanges around the globe.{" "}
                             </p>
                             <a
                               className="btn-animate"

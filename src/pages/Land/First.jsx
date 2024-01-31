@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
+import W1 from '../../assets/images/kd_symbol1@2x.png';
+
 const First = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
-      <div className="bg-[#F0F6FC] lg:py-36 py-20 xl:px-10 px-4">
+      <div className="bg-[#F0F6FC] lg:py-36 py-20 xl:px-10 px-4 relative">
+      <img src={W1} alt="w1" className="absolute top-0 right-0 w-[150px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[150px]" />
         <div
           data-aos="fade-up"
           data-aos-offset="150"

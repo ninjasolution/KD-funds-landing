@@ -4,6 +4,8 @@ import HighchartsReact from "highcharts-react-official";
 import HomeIcon from "../../assets/icons/home.png";
 import TownIcon from "../../assets/icons/town.png";
 import BuidingIcon from "../../assets/icons/BuidingIcon.png";
+import W1 from '../../assets/images/kd_symbol1@2x.png';
+
 const Fluid = () => {
   useEffect(() => {
     AOS.init();
@@ -125,6 +127,9 @@ const Fluid = () => {
 
   return (
     <>
+    <div className="relative">
+    <img src={W1} alt="w1" className="absolute right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
       <div id="fluid">
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div className="flex">
@@ -164,6 +169,7 @@ const Fluid = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

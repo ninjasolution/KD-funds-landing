@@ -2,11 +2,15 @@ import React from "react";
 import FLogo from "../../assets/icons/logo.svg";
 import { Link } from "react-router-dom";
 import { menuList } from "../../config";
+import W1 from "../../assets/images/kd_symbol1@2x.png";
 
 function FooterActionList() {
   return (
     <>
       <div className="w-full mx-auto relative h-full py-5 bg-white xl:px-10 px-4">
+        <img src={W1} alt="w1" className="absolute top-0 right-0 w-[150px]" />
+        <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto md:hidden block right-0 w-[250px]" />
+        <img src={W1} alt="w1" className="absolute bottom-0 right-0 w-[80px]" />
 
         <div className="container relative z-50 mx-auto 2xl:px-0 px-4  w-full pt-8 border-t border-[#F1870F] border-opacity-40 mt-20">
           <div className="flex md:justify-between gap-5 flex-wrap lg:flex-nowrap w-full">
@@ -14,7 +18,6 @@ function FooterActionList() {
               <Link>
                 <img src={FLogo} alt="logo" className="mt-3 w-[166px]" />
               </Link>
-
             </div>
             <div className="flex flex-col md:flex-row gap-5 lg:flex-nowrap flex-wrap lg:justify-between w-full">
               <div className="flex gap-5 justify-between w-full xl:flex-nowrap flex-wrap items-center">
@@ -22,25 +25,27 @@ function FooterActionList() {
                   return (
                     <ul
                       key={v.id}
-                      className={`${i === 0
-                        ? "flex-wrap md:w-[100px] w-[100px]"
-                        : "flex-wrap md:w-[100px] w-full"
-                        } `}
+                      className={`${
+                        i === 0
+                          ? "flex-wrap md:w-[100px] w-[100px]"
+                          : "flex-wrap md:w-[100px] w-full"
+                      } `}
                     >
-                      {
-                        v.link.includes("#") ?
-                          <a
-                            href={v.link}
-                            className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
-                          >
-                            {v.name}
-                          </a>
-                          :
-                          <Link to={v.link} className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und">
-                            {v.name}
-                          </Link>
-                      }
-
+                      {v.link.includes("#") ? (
+                        <a
+                          href={v.link}
+                          className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
+                        >
+                          {v.name}
+                        </a>
+                      ) : (
+                        <Link
+                          to={v.link}
+                          className="text-[#5d5d5d] text-sm font-semibold md:py-3 py-1 hover:underline und"
+                        >
+                          {v.name}
+                        </Link>
+                      )}
                     </ul>
                   );
                 })}
@@ -48,7 +53,6 @@ function FooterActionList() {
             </div>
           </div>
           <div className="border-t border-[#F1870F] border-opacity-40 pt-5 flex md:justify-between gap-4 items-center mt-10 flex-wrap">
-
             <div className="flex gap-4 items-center md:flex-nowrap flex-wrap">
               <Link to="#">
                 <p className="text-[#5d5d5d] text-sm hover:underline">
@@ -56,7 +60,9 @@ function FooterActionList() {
                 </p>
               </Link>
               <Link to="#">
-                <p className="text-[#5d5d5d] text-sm hover:underline">Disclosures</p>
+                <p className="text-[#5d5d5d] text-sm hover:underline">
+                  Disclosures
+                </p>
               </Link>
               <Link to="#">
                 <p className="text-[#5d5d5d] text-sm hover:underline">

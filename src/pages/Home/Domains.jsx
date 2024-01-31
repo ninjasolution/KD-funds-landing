@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import FLogo from "../../assets/icons/logo.svg";
+import W1 from '../../assets/images/kd_symbol1@2x.png';
 
 const Domains = () => {
   const [visibility, setVisibility] = useState(0);
@@ -78,7 +79,9 @@ const Domains = () => {
 
   return (
     <>
-      <div id="studies" className="bg-[#5d5d5d]">
+      <div id="studies" className="bg-[#5d5d5d] relative">
+      <img src={W1} alt="w1" className="absolute right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
         <div className="container mx-auto xl:px-10 px-4 w-full lg:py-36 py-24">
           <div
             data-aos="fade-up"

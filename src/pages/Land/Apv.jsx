@@ -1,12 +1,26 @@
 import React, { useEffect } from "react";
 import A1 from "../../assets/images/Land/land2.svg";
 import A2 from "../../assets/images/Land/land3.svg";
+import W1 from "../../assets/images/kd_symbol1@2x.png";
+
 const Apv = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
+    <div className="relative">
+    <img src={W1} alt="w1" className="absolute top-0 right-0 w-[360px]" />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 top-0 my-auto bottom-0 w-[360px]"
+        />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 bottom-0 w-[360px]"
+        />
       <div className="bg-[#F0F6FC] lg:py-36 py-20 xl:px-10 px-4">
         <div
           data-aos="fade-up"
@@ -57,6 +71,7 @@ const Apv = () => {
           <img src={A2} alt="Image" />
         </div>
       </div>
+    </div>
     </>
   );
 };

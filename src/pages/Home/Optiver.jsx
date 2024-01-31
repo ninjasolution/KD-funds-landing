@@ -1,12 +1,15 @@
 import React, { useEffect } from "react";
 import Opt from "../../assets/images/Home/2nd.jpg";
-import ManImage from '../../assets/images/Home/man.jpeg';
+import W1 from '../../assets/images/kd_symbol1@2x.png';
 const SBS = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div>
+    <div className="relative">
+      <img src={W1} alt="w1" className="absolute right-0 w-[300px] md:-top-10 -top-10" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
+
       <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24 xl:mt-0 md:mt-12">
         <div className="flex gap-4 justify-center xl:flex-nowrap flex-wrap">
           <div

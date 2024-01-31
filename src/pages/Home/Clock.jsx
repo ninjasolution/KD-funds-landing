@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import ClockVideo from "../../assets/images/Home/sbs-1.mp4";
 import Analoge from "./Analog";
+import W1 from '../../assets/images/kd_symbol1@2x.png';
+
 // import Chicago from "./Chicago";
 const Clock = () => {
   useEffect(() => {
@@ -48,6 +50,9 @@ const Clock = () => {
   return (
     <>
       <div className="relative bgclock h-full">
+      <img src={W1} alt="w1" className="absolute top-0 right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto md:hidden block right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
         <figure className="w-full absolute top-0 -z-10 h-full">
           <video
             className="w-full lg:object-cover xl:h-[920px] lg:block hidden h-full"

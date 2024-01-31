@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
+import W1 from '../../assets/images/kd_symbol1@2x.png';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -30,6 +31,8 @@ const Onb = () => {
   return (
     <>
       <div id="expertise" className="bg-[#5d5d5d] relative z-50">
+      <img src={W1} alt="w1" className="absolute right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
         <div
           data-aos="fade-up"
           data-aos-offset="150"

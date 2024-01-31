@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import W1 from "../../assets/images/kd_symbol1@2x.png";
 
 const Journey = () => {
   useEffect(() => {
@@ -48,7 +49,13 @@ const Journey = () => {
 
   return (
     <>
-      <div className="bg-[#F0F6FC]">
+      <div className="bg-[#F0F6FC] relative">
+      <img src={W1} alt="w1" className="absolute right-0 w-[300px]" />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 bottom-0 w-[300px]"
+        />
         <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24">
           <div
             data-aos="fade-up"
