@@ -10,11 +10,11 @@ const Apv = () => {
   return (
     <>
     <div className="relative">
-    <img src={W1} alt="w1" className="absolute top-0 right-0 w-[360px]" />
+    <img src={W1} alt="w1" className="absolute top-0 right-0 w-[300px]" />
         <img
           src={W1}
           alt="w1"
-          className="absolute right-0 top-0 my-auto bottom-0 w-[360px]"
+          className="absolute right-0 top-0 my-auto bottom-0 w-[460px]"
         />
         <img
           src={W1}

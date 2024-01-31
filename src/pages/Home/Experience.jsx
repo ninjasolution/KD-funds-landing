@@ -142,7 +142,12 @@ const Experience = () => {
         <img
           src={W1}
           alt="w1"
-          className="absolute right-0 bottom-0 w-[300px]"
+          className="absolute right-0 top-0 my-auto bottom-0 w-[200px]"
+        />
+        <img
+          src={W1}
+          alt="w1"
+          className="absolute right-0 bottom-0 w-[200px]"
         />
         <div
           data-aos="fade-up"

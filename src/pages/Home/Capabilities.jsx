@@ -81,7 +81,7 @@ const People = () => {
   return (
     <div id="key-difference" className="bg-[#EDEDED] relative">
       <img src={W1} alt="w1" className="absolute right-0 w-[300px]" />
-      <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto md:hidden block right-0 w-[300px]" />
+      <img src={W1} alt="w1" className="absolute top-0 bottom-0 my-auto right-0 w-[300px]" />
       <img src={W1} alt="w1" className="absolute right-0 bottom-0 w-[300px]" />
       <div className="container mx-auto w-full xl:px-10 px-4 lg:py-36 py-24">
         <div className="flex gap-4 items-center">
